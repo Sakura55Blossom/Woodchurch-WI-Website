@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "Arial Narrow", Arial, sans-serif;
+  }
+
+
+  /* Header */
+  
+  header {
+    background-color: #FFFFFF;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  #logo {
+    height: 90%;
+    width: auto;
+  }
+
+  #heading {
+      float: right;
+      text-align: center;
+      font-size: 400%;
+      font-weight: bold;
+      color: #6b7d31;
+  }
+
+  #contacts {
+    padding-bottom: 100px;
+  }
+
+  #contacts > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+
+  .contact-link {
+    text-decoration: none; 
+    color: #000000;
+    display: block;
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* NavBar */
+
+  #navbar {
+    background-color: #6b7d31;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 5px;
+  }
+
+  #navbar > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+
+  .nav-link:link, .nav-link:visited {
+    text-decoration: none; 
+    color: #FFFFFF;
+    display: block;
+    width: 130px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .nav-link:hover, .nav-link:active {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+  }
+
+  /* The hero image */
+
+  #group-photo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("groupPhotoExcursion.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px
+  }
+
+  #group-text {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 3em;
+    padding-top: 50px;
+    font-size: 200%;
+  }
+
+  button {
+    background-color: #6b7d31;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 150%;
+    margin-top: 40px;
+  }
