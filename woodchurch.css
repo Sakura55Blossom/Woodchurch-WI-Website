@@ -105,6 +105,20 @@
     font-size: 200%;
   }
 
+  #news {
+    float: left;
+    width: 50%;
+    height: 500px;
+    text-align: center;
+  }
+
+  #upcoming-events {
+    float: right;
+    width: 50%;
+    height: 500px;
+    text-align: center;
+  }
+
   button {
     background-color: #6b7d31;
     color: white;
@@ -123,9 +137,14 @@
     flex-direction: column;
 }
 
-.page-header,
+.page-header {
+    flex-shrink: 0;
+}
+
 .page-footer {
     flex-shrink: 0;
+    background-color: #043d32;
+    padding: 100px;
 }
 
 .page-body {
