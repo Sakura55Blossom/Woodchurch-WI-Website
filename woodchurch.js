@@ -3,7 +3,6 @@ var introTwo = document.getElementById("introTwo");
 var introThree = document.getElementById("introThree");
 var introFour = document.getElementById("introFour");
 var introFive = document.getElementById("introFive");
-var introButton = document.getElementById("findOutMore")
 
 /* Line One*/
 
@@ -69,20 +68,3 @@ function changeTextBackFive() {
 
 introFive.addEventListener("mouseover", changeTextFive);
 introFive.addEventListener("mouseout", changeTextBackFive);
-
-/*Button*/
-
-function bigButton() {
-    introButton.style.color = "gold";
-    introButton.style.fontSize = "200%";
-    introButton.style.padding = "40px";
-};
-
-function smallButton() {
-    introButton.style.color = "white";
-    introButton.style.fontSize = "150%";
-    introButton.style.padding = "20px";
-};
-
-introButton.addEventListener("mouseover", bigButton);
-introButton.addEventListener("mouseout", smallButton);
