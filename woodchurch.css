@@ -132,19 +132,18 @@
 
       /*Sections*/
 
-  #news {
-    float: left;
-    width: 50%;
-    height: 500px;
-    text-align: center;
+  .grid-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   }
 
-  #upcoming-events {
-    float: right;
-    width: 50%;
-    height: 500px;
+  .box {
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
     text-align: center;
-
   }
 
 /*Footer*/
