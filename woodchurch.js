@@ -7,11 +7,11 @@ var introFive = document.getElementById("introFive");
 /* Line One*/
 
 function changeTextOne() {
-    introOne.style.color = "gold";   
+    introOne.style.fontSize = "150%";
 };
 
 function changeTextBackOne() {
-    introOne.style.color = "white";   
+    introOne.style.fontSize = "100%";   
 };
 
 introOne.addEventListener("mouseover", changeTextOne);
@@ -20,11 +20,11 @@ introOne.addEventListener("mouseout", changeTextBackOne);
 /*Line Two*/
 
 function changeTextTwo() {
-    introTwo.style.color = "gold";   
+    introTwo.style.fontSize = "150%";  
 };
 
 function changeTextBackTwo() {
-    introTwo.style.color = "white";   
+    introTwo.style.fontSize = "100%";  
 };
 
 introTwo.addEventListener("mouseover", changeTextTwo);
@@ -33,11 +33,11 @@ introTwo.addEventListener("mouseout", changeTextBackTwo);
 /*Line Three*/
 
 function changeTextThree() {
-    introThree.style.color = "gold";   
+    introThree.style.fontSize = "150%";  
 };
 
 function changeTextBackThree() {
-    introThree.style.color = "white";   
+    introThree.style.fontSize = "100%";
 };
 
 introThree.addEventListener("mouseover", changeTextThree);
@@ -46,11 +46,11 @@ introThree.addEventListener("mouseout", changeTextBackThree);
 /*Line Four*/
 
 function changeTextFour() {
-    introFour.style.color = "gold";   
+    introFour.style.fontSize = "150%"; 
 };
 
 function changeTextBackFour() {
-    introFour.style.color = "white";   
+    introFour.style.fontSize = "100%";  
 };
 
 introFour.addEventListener("mouseover", changeTextFour);
@@ -59,11 +59,11 @@ introFour.addEventListener("mouseout", changeTextBackFour);
 /*Line Five*/
 
 function changeTextFive() {
-    introFive.style.color = "gold";   
+    introFive.style.fontSize = "150%";  
 };
 
 function changeTextBackFive() {
-    introFive.style.color = "white";   
+    introFive.style.fontSize = "100%";  
 };
 
 introFive.addEventListener("mouseover", changeTextFive);

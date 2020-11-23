@@ -90,7 +90,6 @@
   .nav-link:hover, .nav-link:active {
     background-color: #FFFFFF;
     color: #000000;
-    font-weight: bold;
   }
 
 /*Main Body*/
@@ -119,11 +118,12 @@
   }
 
   button {
-    background-color: #6b7d31;
+    background-color: #043d32;
     color: white;
     border: 2px;
     border-style: solid;
-    border-color: black;
+    border-radius: 30px;
+    border-color:black;
     padding: 20px;
     font-weight: bold;
     font-size: 150%;
@@ -136,6 +136,8 @@
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 100px;
+    margin: 100px;
   }
 
   .box {
@@ -144,6 +146,8 @@
     border-color: black;
     padding: 20px;
     text-align: center;
+    background-color: #F0F8FF;
+    height: 200px
   }
 
 /*Footer*/
