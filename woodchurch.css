@@ -141,13 +141,19 @@
   }
 
   .box {
-    border: 5px;
+    border: 1px;
     border-style: solid;
-    border-color: black;
+    border-color: gray;
+    border-radius: 30px;
     padding: 20px;
     text-align: center;
-    background-color: #F0F8FF;
-    height: 200px
+    background-color:#6b7d31;
+    height: 500px
+  }
+
+  .box p, h2 {
+    font-family: Consolas;
+    color: white;
   }
 
 /*Footer*/
@@ -155,5 +161,11 @@
 .page-footer {
     flex-shrink: 0;
     background-color: #043d32;
-    padding: 100px;
+    padding: 50px;
+}
+
+.copyright {
+  float: right;
+  font-weight: bold;
+  color: white;
 }
