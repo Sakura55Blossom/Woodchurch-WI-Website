@@ -132,14 +132,21 @@
 
       /*Sections*/
 
-  .grid-container {
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 100px;
-    margin: 100px;
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    flex-basis: 100%;
+  }
+    
   .box {
     border: 1px;
     border-style: solid;
@@ -148,7 +155,8 @@
     padding: 20px;
     text-align: center;
     background-color:#6b7d31;
-    height: 500px
+    width: 80%;
+    margin: 50px auto;
   }
 
   .box p, h2 {
@@ -168,4 +176,12 @@
   float: right;
   font-weight: bold;
   color: white;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1;
+  }
 }
