@@ -6,6 +6,7 @@
     border: 0;
     padding: 0;
     font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 16px;
   }
 
   .wrapper {
@@ -25,6 +26,7 @@
     justify-content: space-around;
     align-items: center;
     flex-shrink: 0;
+    font-size: 1rem;
   }
 
   .logo {
@@ -35,7 +37,7 @@
   .woodchurchWI {
       float: right;
       text-align: center;
-      font-size: 400%;
+      font-size: 4em;
       font-weight: bold;
       color: #6b7d31;
   }
@@ -58,6 +60,7 @@
     width: 100px;
     line-height: 50px;
     text-align: center;
+    font-size: 1em;
     font-weight: bold;
   }
 
@@ -66,14 +69,14 @@
   .navbar {
     background-color: #6b7d31;
     width: 100%;
-    height: 50px;
-    box-shadow: 0px 5px;
+    font-size: 1rem;
   }
 
   .navbar > ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     list-style-type: none;
   }
 
@@ -96,6 +99,7 @@
 
   .page-body {
     flex-grow: 1;
+    font-size: 1rem;
   }
 
       /* The hero image */
@@ -109,12 +113,23 @@
   }
 
   #group-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 800px;   /*same as photo*/
     text-align: center;
     color: white;
     font-weight: bold;
-    line-height: 3em;
     padding-top: 50px;
-    font-size: 200%;
+    padding-bottom: 50px;
+  }
+
+  #introOne, #introTwo, #introThree, #introFour, #introFive {
+    font-size: 1.5em;
+    font-family: Consolas;
+    width: 80%;
+    height: 100px;
   }
 
   button {
@@ -126,7 +141,7 @@
     border-color:black;
     padding: 20px;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 1.5em;
     margin-top: 40px;
   }
 
@@ -157,11 +172,19 @@
     background-color:#6b7d31;
     width: 80%;
     margin: 50px auto;
+    font-size: 1rem;
   }
 
-  .box p, h2 {
+  .box h2 {
     font-family: Consolas;
     color: white;
+    font-size: 1.5em;
+  }
+
+  .box p {
+    font-family: Consolas;
+    color: white;
+    font-size: 1em;
   }
 
 /*Footer*/
