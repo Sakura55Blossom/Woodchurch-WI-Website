@@ -1,4 +1,4 @@
-/* Universal Styles*/
+/******* Universal Styles**********/
 
 * {
     box-sizing: border-box;
@@ -35,18 +35,17 @@
   }
 
   .woodchurchWI {
-      float: right;
       text-align: center;
       font-size: 4em;
       font-weight: bold;
       color: #6b7d31;
   }
 
-  .contacts {
+  .contacts-header {
     padding-bottom: 100px;
   }
 
-  .contacts > ul {
+  .contacts-header > ul, .contacts-footer > ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -195,15 +194,46 @@
     padding: 50px;
 }
 
+.contacts-footer {
+  float: left;
+}
+
 .copyright {
   float: right;
   font-weight: bold;
   color: white;
 }
 
-/*Media Queries*/
+/*********Media Queries*************/
 
-@media screen and (min-width: 800px) {
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .page-header {
+    height: 100px;
+  }
+
+  .woodchurchWI {
+      font-size: 2em;
+  }
+
+  .contacts-header {
+    display: none;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width:991px) {
+  .contacts-header {
+    display: none;
+  }
+  .column {
+    flex: 1;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 992px) {
   .column {
     flex: 1;
   }
