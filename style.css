@@ -124,11 +124,15 @@
     padding-bottom: 50px;
   }
 
-  #introOne, #introTwo, #introThree, #introFour, #introFive {
+  .intro-text {
     font-size: 1.5em;
     font-family: Consolas;
     width: 80%;
     height: 100px;
+  }
+
+  .big-intro-text {
+    font-size: 2em;
   }
 
   button {
