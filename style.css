@@ -108,7 +108,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px
+    height: 800px;
   }
 
   #group-text {
@@ -138,10 +138,10 @@
   button {
     background-color: #043d32;
     color: white;
-    border: 2px;
+    border: 5px;
     border-style: solid;
     border-radius: 30px;
-    border-color:black;
+    border-color: #6b7d31;
     padding: 20px;
     font-weight: bold;
     font-size: 1.5em;
@@ -150,45 +150,44 @@
 
       /*Sections*/
 
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+section {
+  padding: 20px;
+  border: 5px;
+  border-style: solid;
+  border-color:#6b7d31;
+  width: 80%;
+  margin: 50px auto;
+  background-color: #eff7d5;
+}
 
-  .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+h2 {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  
+  color: #6b7d31;
+  text-decoration: underline;
+}
 
-  .column {
-    flex-basis: 100%;
-  }
-    
-  .box {
-    border: 1px;
-    border-style: solid;
-    border-color: gray;
-    border-radius: 30px;
-    padding: 20px;
-    text-align: center;
-    background-color:#6b7d31;
-    width: 80%;
-    margin: 50px auto;
-    font-size: 1rem;
-  }
+section p {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10px;
+  
+}
 
-  .box h2 {
-    font-family: Consolas;
-    color: white;
-    font-size: 1.5em;
-  }
+section a {
+  text-decoration: none;
+  
+  font-size: 1.1em;
+  color: black;
+}
 
-  .box p {
-    font-family: Consolas;
-    color: white;
-    font-size: 1em;
-  }
+.cancelled {
+  font-weight: bold;
+  color: #ff0000;
+}
 
 /*Footer*/
 
@@ -200,6 +199,10 @@
 
 .contacts-footer {
   float: left;
+}
+
+.contacts-footer a {
+  color: white;
 }
 
 .copyright {
@@ -230,15 +233,11 @@
   .contacts-header {
     display: none;
   }
-  .column {
-    flex: 1;
+
   }
-}
 
 /* Desktop */
 
 @media screen and (min-width: 992px) {
-  .column {
-    flex: 1;
-  }
+
 }
